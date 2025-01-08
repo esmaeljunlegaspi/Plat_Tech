@@ -1,0 +1,31 @@
+ 1. How to create reactive forms?
+    Answer: To create reactive forms is to build forms in Angular using a model-driven approach. This means you manage the form's state and data within your component class, rather than relying on directives in the HTML template. Reactive forms offer more control, flexibility, and testability compared to template-driven forms, making them ideal for complex forms or scenarios requiring dynamic behavior.
+
+2. How to add built-in validation for email in reactive form?
+    Answer: To add built-in validation for email in reactive form, is you use angular's Validators.email function. This validator checks if the input value adherse to a standard email format.
+
+3.How to add built-in validation for required fields in reactive form?
+    Answer: To add built-in validation for required fields in reactive form, is you use Angular's validators.required function. This validator ensures that the input field is not empty.
+
+4. How to add regex validation for reactive forms?
+Answer: To add regex validation for reactive forms, you need to create a custom validator function that uses regular expressions (regex) to check if the input value matches a specific pattern.
+
+5. How to generate routing?
+Answer: To generate routing in a software development context, you typically use a routing system or framework that handles the navigation and view management within your application.
+
+6. How to configure routes with parameters?
+Answer: To configure routes with parameters, you need to define route paths that include placeholders for dynamic values. These placeholders are typically denoted by colons (:) followed by a parameter name. When a user navigates to a URL that matches the parameterized route, the routing system captures the values for those parameters and passes them to the corresponding component.
+
+7. What is DebounceTime in RxJS?
+Answer: DebounceTime is an operator that suppresses repeated emissions of a source Observable, emitting only the last value after a specified duration of inactivity. Think of it as a ''wait-and-see'' operator. It's incredibly useful for handling events that occur frequently, such as keystrokes in a search box or mouse movements, where you only want to react to the final value after a pause.
+
+8. What is pipe operator?
+Answer: pipe operator is a fundamental building block that allows you to chain together multiple operators, transforming and manipulating data flowing through an Observable. Think of it as a pipeline for data processing, where each operator performs a specific task on the data stream.
+
+9. What is distinctUntilChanged operator?
+Answer: distinctUntilChanged operator is used to filter out consecutive emissions from an Observable that have the same value. It only emits a value if it's different from the previously emitted value.
+
+10. What is filter operator in RxJs?
+Answer: filter operator is a powerful tool for selectively emitting values from an Observable based on a condition. It acts like a gatekeeper, allowing only values that meet a specific criteria to pass through.
+
+
